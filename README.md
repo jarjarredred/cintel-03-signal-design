@@ -4,6 +4,7 @@
 
 ### Updates
 - Changed authorship
+- Changed error rate to display as percentage instead of decimal.
 
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
