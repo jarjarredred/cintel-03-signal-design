@@ -46,3 +46,43 @@
 2026-03-25 11:05:06 | INFO | P3 | Pipeline executed successfully!
 2026-03-25 11:05:06 | INFO | P3 | ========================
 2026-03-25 11:05:06 | INFO | P3 | END main()
+2026-03-25 11:19:17 | INFO | P3 | === RUN START ===
+2026-03-25 11:19:17 | INFO | P3 | project=CINTEL - HEALTH MONITOR
+2026-03-25 11:19:17 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-25 11:19:17 | INFO | P3 | python=3.14.2
+2026-03-25 11:19:17 | INFO | P3 | os=Windows 11
+2026-03-25 11:19:17 | INFO | P3 | shell=powershell
+2026-03-25 11:19:17 | INFO | P3 | cwd=.
+2026-03-25 11:19:17 | INFO | P3 | github_actions=False
+2026-03-25 11:19:17 | INFO | P3 | Loaded 10 records
+2026-03-25 11:19:17 | INFO | P3 | System Health Summary:
+shape: (1, 2)
+┌─────────────┬───────┐
+│ health_zone ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u64   │
+╞═════════════╪═══════╡
+│ HEALTHY     ┆ 10    │
+└─────────────┴───────┘
+2026-03-25 11:19:17 | INFO | P3 | Enhanced report saved: C:\Repos\cintel-03-signal-design\artifacts\signals_jarred2.csv
+2026-03-25 11:22:02 | INFO | P3 | === RUN START ===
+2026-03-25 11:22:02 | INFO | P3 | project=CINTEL - HEALTH MONITOR
+2026-03-25 11:22:02 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-25 11:22:02 | INFO | P3 | python=3.14.2
+2026-03-25 11:22:02 | INFO | P3 | os=Windows 11
+2026-03-25 11:22:02 | INFO | P3 | shell=powershell
+2026-03-25 11:22:02 | INFO | P3 | cwd=.
+2026-03-25 11:22:02 | INFO | P3 | github_actions=False
+2026-03-25 11:22:02 | INFO | P3 | Loaded 20 records
+2026-03-25 11:22:02 | INFO | P3 | System Health Summary:
+shape: (3, 2)
+┌─────────────┬───────┐
+│ health_zone ┆ count │
+│ ---         ┆ ---   │
+│ str         ┆ u64   │
+╞═════════════╪═══════╡
+│ CRITICAL    ┆ 3     │
+│ WARNING     ┆ 2     │
+│ HEALTHY     ┆ 15    │
+└─────────────┴───────┘
+2026-03-25 11:22:02 | INFO | P3 | Enhanced report saved: C:\Repos\cintel-03-signal-design\artifacts\signals_jarred2.csv
